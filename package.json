@@ -1,5 +1,14 @@
 {
+  "name": "chatbot-websocket",
+  "version": "1.0.0",
+  "description": "A simple WebSocket server for chatbot",
+  "main": "server.mjs",  
   "dependencies": {
     "ws": "^8.18.0"
-  }
+  },
+  "scripts": {
+    "start": "node server.mjs" 
+  },
+  "author": "",
+  "license": "ISC"
 }
