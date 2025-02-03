@@ -1,4 +1,4 @@
-const socket = new WebSocket('ws://localhost:8080');
+const socket = new WebSocket(`wss://${window.location.host}/`);
 const chatBox = document.getElementById('chat-box');
 const input = document.getElementById('input');
 const sendButton = document.getElementById('send');
